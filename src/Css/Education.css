@@ -1,0 +1,45 @@
+*{
+    font-family:'Inter';
+}
+.education-box{
+    position:relative;
+    top:170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  .education-box img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    position:relative;
+    top:-10px;
+  }
+  .school{
+    margin-bottom:25px !important;
+    font-size:15px !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .education-box .bg-gray-200 {
+    background-color: #ffffff;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.212); 
+    transition: box-shadow 0.3s ease; 
+  }
+  
+  .education-box .bg-gray-200:hover {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.63);
+    transform:translateY(-16px);
+    transition:.5s;
+  }
+  @media only screen and (min-width:300px) and (max-width:450px){
+    .FLEX{
+      display:block !important;
+    }
+    .img-1{
+      position:relative !important;
+      left:-185px !important;
+      top:25px !important;
+    }
+  }
+  

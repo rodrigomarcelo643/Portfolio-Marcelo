@@ -1,0 +1,91 @@
+*{
+    font-family: 'Inter';
+
+}
+body{
+ overflow-x:hidden;
+}
+.main-content{
+    margin-bottom:150px;
+    margin-top:-100px;
+
+}
+.btn-view-cv {
+    margin-top: 80px !important;
+    margin-left: -200px !important;
+    width: 200px;
+    border-radius:30px !important;
+    text-align: center;
+    background-color: black !important;
+    transition: 0.5s;
+    position: relative; 
+    z-index: 1; 
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-view-cv:hover {
+    background-color: rgb(19, 16, 16) !important;
+    transition: 0.5s;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+  
+.social-links{
+    margin-bottom:250px;
+    margin-top:-100px !important;
+}
+.social-links img:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    
+}
+.flex-wrap{
+    position:relative;
+    top:150px;
+
+}
+.dev-text{
+    font-size:27px;
+
+}
+.Content{
+    margin-left:50px;
+    
+}
+.text-gray-600 {
+    font-size:40px !important;
+    color:rgb(36, 32, 32) !important; 
+    font-weight:bold;
+}
+.rounded-lg {
+    position: relative;
+    top: -150px;
+}
+  
+  .img-floating {
+    height:500px !important;
+    margin-top: -350px; 
+  }
+  img{
+    width:600px;
+    border-radius:20px;
+  }
+  @media only screen and (min-width:300px ) and (max-width:900px){
+
+    .img-floating{
+        margin-top:-80px;
+    }
+    .dev-text{
+        font-size:20px;
+    
+  }
+  .btn-view-cv{
+    margin-top:80px!important;
+    margin-left:-200px !important;
+    width:200px;
+    text-align:center;
+}
+}

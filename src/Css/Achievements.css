@@ -1,0 +1,56 @@
+.top-achi{
+    margin-top:260px !important;
+    margin-bottom:-150px !important;
+}
+.moments{
+    margin-top:200px !important;
+    margin-bottom:-100px !important;
+    max-width: 200px;
+    max-height:300px !important;
+}
+.moments img{
+    margin-right:50px;
+}
+@media only screen and (min-width:500px) and (max-width:800px){
+    .moments{
+        text-align:center;
+        margin-left:130px;
+    }
+    .moments img{
+        margin-right:20px;
+        width:350px !important;
+        max-width:350px;
+        height:100px !important;
+        max-height:300px;
+    }
+    
+}
+@media only screen and (min-width:300px) and (max-width:499px){
+    .moments{
+        text-align:center;
+        margin-left:130px;
+    }
+    .moments img{
+        margin-right:20px;
+        width:260px !important;
+        max-width:350px;
+        margin-left:-135px;
+        height:100px !important;
+        max-height:300px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .moments {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .moments img {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  

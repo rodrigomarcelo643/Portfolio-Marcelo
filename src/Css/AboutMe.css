@@ -1,0 +1,15 @@
+
+section {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  section.visible {
+    opacity: 1;
+  }
+  
+  .home-img{
+    width:75px !important; 
+    height:70px !important;
+    border-radius:50%;
+  }

@@ -1,0 +1,165 @@
+.text-xs {
+    color: black !important;
+    letter-spacing: 0.5px;
+}
+
+.education-bg {
+    font-size: 25px !important;
+    font-weight: bold;
+    color: #3b383de8;
+}
+
+.about {
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+
+/* React Theme */
+.bg-blue-theme {
+    background-color: rgb(189, 189, 189);
+}
+
+.bg-blue-500 {
+    background-color: #2b6cb0;
+}
+
+/* PHP Theme */
+.bg-violet-theme {
+    background-color: rgb(189, 189, 189);
+}
+
+.bg-violet-500 {
+    background-color: #805ad5;
+}
+
+/* Kotlin Theme */
+.bg-kotlin-theme {
+    background-color: rgb(189, 189, 189);
+}
+
+.bg-kotlin-500 {
+    background-color: #964fcfe8;
+}
+
+/* Java Theme */
+.bg-java-theme {
+    background-color: rgb(189, 189, 189);
+}
+
+.bg-java-500 {
+    background-color: #e53e3e;
+}
+
+/* Python Theme */
+.bg-python-theme {
+    background-color: rgb(189, 189, 189);
+}
+
+.bg-python-500 {
+    background-color: #53e917;
+}
+
+/* JavaScript Theme */
+.bg-js-theme {
+    background-color: rgb(189, 189, 189);
+}
+
+.bg-js-500 {
+    background-color: #d69e2e;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+    margin-top: 200px;
+    margin-bottom: -230px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.text-2xl {
+    color: black !important;
+}
+
+.box {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.p-title {
+    color: #1a202c;
+}
+
+.languages {
+    background-color: #ffffff;
+}
+
+.whole-bg {
+    background-color: black;
+}
+
+.languages:hover {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.63);
+}
+.Title {
+    background-color: #dbddda;
+    width: 100%;
+    max-width: 500px; 
+    margin: 70px auto;
+    margin-bottom:-100px !important;
+    padding: 50px;
+    border-radius:20px;
+    color:black !important;
+    letter-spacing:.5px;
+    font-size:2.3vw !important;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.63);
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 600px) {
+    .Title {
+      padding: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    .Title {
+      font-size:30px !important;
+      margin: 30px auto; 
+      padding: 20px; 
+    }
+  }
+  
+/* Responsive styling for skill boxes */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 4px;
+    }
+    .flex-col {
+        flex-direction: column;
+    }
+    .bg-white {
+        width: 100%;
+        margin: 8px 0;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 16px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .container {
+        padding: 24px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .container {
+        padding: 32px;
+    }
+}
